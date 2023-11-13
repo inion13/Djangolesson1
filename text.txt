@@ -1,0 +1,11 @@
+virtualenv venv - добавление вирт окружения
+.\venv\Scripts\activate - активация вирт окружения (если оно отключено)
+deactivate - выход из вирт окружения
+django-admin startproject Lesson1 - начало проекта
+python manage.py runserver - запуск
+python manage.py startapp example
+
+wsgi - точка входа на проект синхронная
+asgi - точка входа на проект асинхронная
+
+80 или 8080 - порт просмотра web-страниц
